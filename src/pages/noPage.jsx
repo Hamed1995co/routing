@@ -1,7 +1,12 @@
+import {Outlet,Link} from "react-router-dom";
 
 const NoPage = () =>{
     return(
-        <h1>NoPage</h1>
+        <>
+            <h1>NoPage</h1>
+            <Outlet/>
+
+        </>
     );
 }
 

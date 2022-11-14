@@ -1,6 +1,14 @@
+import {Outlet,Link} from "react-router-dom";
+
 const Blog = () =>{
     return(
-        <h1>Blog</h1>
+        <>
+            <h1>Blog</h1>
+            <Outlet/>
+
+
+        </>
+
     );
 }
 
